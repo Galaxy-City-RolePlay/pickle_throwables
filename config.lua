@@ -1,8 +1,8 @@
 Config = {}
 
-Config.Debug = true
+Config.Debug = false
 
-Config.Language = "en"
+Config.Language = "de"
 
 Config.RenderDistance = 20.0
 Config.CatchRadius = 2.5
@@ -36,6 +36,36 @@ Config.Throwables = {
         item = "soccer",
         entityType = "object", -- "object", "vehicle", "ped"
         model = `p_ld_soc_ball_01`,
+        maxThrowingPower = 200
+    },
+    ["tennis"] = {
+        item = "tennisball",
+        entityType = "object", -- "object", "vehicle", "ped"
+        model = `prop_tennis_ball`,
+        maxThrowingPower = 200
+    },
+    ["billiard"] = {
+        item = "billiardball",
+        entityType = "object", -- "object", "vehicle", "ped"
+        model = `prop_poolball_cue`,
+        maxThrowingPower = 200
+    },
+    ["bowlingkugel"] = {
+        item = "bowlingkugel",
+        entityType = "object", -- "object", "vehicle", "ped"
+        model = `prop_bowling_ball`,
+        maxThrowingPower = 200
+    },
+    ["golfball"] = {
+        item = "golfball",
+        entityType = "object", -- "object", "vehicle", "ped"
+        model = `prop_golf_ball_p3`,
+        maxThrowingPower = 200
+    },
+    ["volleyball"] = {
+        item = "volleyball",
+        entityType = "object", -- "object", "vehicle", "ped"
+        model = `prop_beach_volball02`,
         maxThrowingPower = 200
     },
 }
